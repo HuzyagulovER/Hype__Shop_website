@@ -1,0 +1,159 @@
+{
+	"header": {
+		"main": "main",
+		"shop": "shop",
+		"custom": "custom",
+		"contact": "contact",
+		"faq": "FAQ",
+		"cart": "cart",
+		"soon": "soon"
+	},
+	"footer": {
+		"shipping-and-returns": {
+			"title": "Shipping & Returns",
+			"policy": "Store Policy",
+			"payment": "Payment Methods",
+			"safety": "safety"
+		},
+		"fast-links": {
+			"title": "Fast Links",
+			"main": "Main Page",
+			"contacts": "Contacts",
+			"cart": "Shopping cart",
+			"craft_wallet": "Craft wallet"
+		},
+		"contact-information": {
+			"title": "Contact & Information"
+		},
+		"go_up": "Go up",
+		"down-line": {
+			"rights": "All rights reserved",
+			"history": "History",
+			"powered": "POWERED BY"
+		}
+	},
+	"faq": {
+		"title": "F.A.Q.",
+		"subtitle": "Frequenty asked questions",
+		"questions": {
+			"1": {
+				"question": "How is the item being ordered?",
+				"answer": "You can order the item trought the online store or from facebook, instagram page. Delivery: in tbilisi - The next day after ordering. In the regions - 5 days."
+			},
+			"2": {
+				"question": "What`s the time of exclusive craft",
+				"answer": "Time depends on wallet model and leather availability, classic wallet crafting time is 2-5 days."
+			},
+			"3": {
+				"question": "Can I pre-order an item that is not currently Available in the store?",
+				"answer": "The product, you can order or book in advantce, Through the facebook, instagram page."
+			},
+			"4": {
+				"question": "Is my personal data protected?",
+				"answer": "Any of your personal information is protected by us."
+			}
+		}
+	},
+	"contact": {
+		"title": "Contact",
+		"subtitle": "Contact information",
+		"address": {
+			"title": "Our address",
+			"text": "So far we are working only online using fast courier service to deliver even faster."
+		},
+		"help": {
+			"title": "Need help?"
+		},
+		"email": {
+			"title": "Email contact"
+		}
+	},
+	"shop": {
+		"titles": {
+			"category": "category",
+			"most_popular": "most popular",
+			"in": "In"
+		},
+		"tile": {
+			"more-details": "more details"
+		},
+		"banners": {
+			"banner_1": {
+				"subtitle": "Exclusive, we can craft wallet",
+				"title": "Personaly for you",
+				"link": "Make yours"
+			},
+			"banner_2": {
+				"subtitle": "Great selection",
+				"title": "Pick your wallet",
+				"link": "Collection"
+			}
+		}
+	},
+	"item": {
+		"color": "Color",
+		"add_to_cart": "Add to cart",
+		"buy_now": "BUY IT NOW"
+	},
+	"cart": {
+		"total": {
+			"summary": {
+				"title": "Order summary",
+				"amount": "Amount",
+				"shipping": "Shipping",
+				"free": "Free (Tbilisi)"
+			},
+			"subtotal": {
+				"title": "Subtotal",
+				"subtotal": "Subtotal"
+			},
+			"promo": {
+				"title": "Promocode",
+				"placeholder": "Enter promo"
+			}
+		},
+		"order_button": "ORDER NOW",
+		"empty": {
+			"title": "Your cart is empty"
+		}
+	},
+	"order": {
+		"form": {
+			"first_name": "First name",
+			"last_name": "Last name",
+			"phone": "Phone number",
+			"alt_phone": "Alternative number",
+			"address": "Address",
+			"address_opt": "Address (optional)",
+			"comment": "Comment for delivery",
+			"payment": {
+				"title": "Payment method",
+				"cash": "Cash (on delivery)",
+				"card": "Credit Card (online)"
+			},
+			"problem": {
+				"text": "Having any problem?",
+				"link": "Contact"
+			},
+			"order_button": "ORDER NOW"
+		}
+	},
+	"custom": {
+		"model_title": "Select your model",
+		"primary_title": "Select primary: color texture",
+		"secondary_title": "Select secondary: color texture",
+		"preview": {
+			"title": "Your Product",
+			"total_text": "Total value"
+		},
+		"comment": {
+			"title": "Left comment (anything)",
+			"placeholder": "Leave a comment for master",
+			"order_button": "complete order"
+		},
+		"gallery_title": "Recent from gallery"
+	},
+	"thanks": {
+		"text": "Thank you for the order!"
+	}
+}

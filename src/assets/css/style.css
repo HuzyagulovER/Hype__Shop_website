@@ -1,0 +1,208 @@
+:root {
+	--c_white: 237, 237, 237;
+	--c_transparent-white: rgba(var(--c_white), 0.5);
+	--c_main: 22, 23, 27;
+	--c_light-main: 30, 31, 36;
+	--c_transparent-light-main: rgba(var(--c_light-main), 0.35);
+	--c_dark-main: 19, 20, 23;
+	--c_dark-coral: 253, 104, 104;
+	--c_coral: 240, 128, 128;
+	--c_pink: 250, 147, 147;
+	--c_light-pink: 253, 187, 187;
+	--c_graylish-blue: 163, 171, 211;
+	--c_desaturated-graylish-blue: 121, 129, 162;
+	--c_dark-blue: 38, 40, 45;
+	--c_grey: 93, 93, 93;
+	--c_light-grey: 150, 150, 150;
+	--c_transparent-grey: rgba(var(--c_grey), 0.5);
+	--c_dark-grey: 36, 37, 43;
+	--c_transparent-dark-grey: rgba(var(--c_dark-grey), 0.5);
+
+	--border-radius: 0.8rem;
+
+	--linear-gradient: linear-gradient(to right,
+			rgb(var(--c_pink)) 0%,
+			transparent 100%);
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	outline: none;
+
+	/* Scrollbar style for Firefox */
+	scrollbar-width: none;
+	scrollbar-color: transparent transparent;
+
+}
+
+/* Scrollbar style for Chrome/Edge/Safari */
+* ::-webkit-scrollbar {
+	width: 0;
+	height: 0;
+	display: none;
+}
+
+* ::-webkit-scrollbar-track {
+	background-color: transparent;
+}
+
+* ::-webkit-scrollbar-thumb {
+	background-color: transparent;
+}
+
+html {
+	font-size: calc(100vw / 90);
+	font-family: "Montserrat Medium", "Axis", "BPG";
+	color: rgb(var(--c_white));
+}
+
+@media (min-width: 1438px) {
+	html {
+		font-size: 16px;
+	}
+}
+
+@media (max-width: 1250px) {
+	html {
+		font-size: calc(100vw / 80);
+	}
+}
+
+@media (max-width: 1050px) {
+	html {
+		font-size: calc(100vw / 60);
+	}
+}
+
+@media (max-width: 750px) {
+	html {
+		font-size: calc(100vw / 30);
+	}
+}
+
+html,
+body,
+#app {
+	background-color: rgb(var(--c_main));
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	min-height: 100vh;
+}
+
+body {
+	overflow-x: hidden;
+}
+
+body.ge {
+	font-family: "BPG" !important;
+
+}
+
+section {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+.wrapper {
+	max-width: 1438px;
+	width: 100%;
+	height: 100%;
+	margin: 0 auto;
+	padding: 0 3rem;
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+}
+
+@media screen and (max-width: 750px) {
+	.wrapper {
+		padding: 0 1.5rem
+	}
+}
+
+/* button {
+	transition: all .3s ease !important;
+}
+
+button:hover {
+	transform: scale(1.02) !important;
+}
+
+button:active {
+	transform: scale(0.98) !important;
+} */
+
+/* @media (max-width: 1500px) {
+	html {
+		font-size: 0.78px;
+	}
+}
+
+@media (max-width: 1100px) {
+	html {
+		font-size: 0.57px;
+	}
+}
+
+@media (max-width: 800px) {
+	html {
+		font-size: 0.15vw;
+	}
+} */
+
+a {
+	color: inherit;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+/* Это для браузера Chrome: */
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+/* это для браузера Firefox: */
+input[type="number"] {
+	-moz-appearance: textfield;
+}
+
+input[type="number"]:hover,
+input[type="number"]:focus {
+	-moz-appearance: number-input;
+}
+
+/* Для других */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}
+
+input {
+	font-family: inherit;
+	font-weight: inherit;
+}
+
+.flex-fill {
+	flex: 100;
+}
+
+.scroll-thumb {
+	position: fixed;
+	fill: rgb(var(--c_grey));
+	top: 0;
+	right: 0;
+	width: 1rem;
+	height: auto;
+}
+
+.ge {
+	font-family: "BPG" !important;
+}
